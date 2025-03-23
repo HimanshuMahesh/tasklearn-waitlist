@@ -209,7 +209,7 @@ function App() {
             <div className="mt-8 sm:mt-12 flex justify-center mb-8 sm:mb-12">
               <img
                 src={darkMode ? "/tasklearnblack-removebg-preview.png" : "/tasklearnlight-removebg-preview.png"}
-                alt=""
+                alt="TaskLearn.ai illustration"
                 className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain transition-opacity duration-300"
                 aria-hidden="true"
               />
@@ -287,16 +287,9 @@ function App() {
       </section>
 
       {/* Footer */}
-             <footer className="container mx-auto px-4 py-12 text-center text-gray-600 dark:text-gray-400 font-montserrat">
-               <div className="space-y-4">
-                 <p>© 2024 TaskLearn.ai - Building the future of skill acquisition</p>
-                 <div className="flex items-center justify-center space-x-6">
-                   <a href="/terms" className="hover:text-purple-500 transition-colors">Terms & Conditions</a>
-                   <span className="text-gray-400">•</span>
-                   <a href="/privacy" className="hover:text-purple-500 transition-colors">Privacy Policy</a>
-                 </div>
-               </div>
-             </footer>
+      <footer className="container mx-auto px-4 py-12 text-center text-gray-600 dark:text-gray-400 font-montserrat">
+        <p>© 2024 TaskLearn.ai - Building the future of skill acquisition</p>
+      </footer>
     </div>
   )
 }
