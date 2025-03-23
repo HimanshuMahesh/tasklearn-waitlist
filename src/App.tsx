@@ -208,7 +208,7 @@ function App() {
             {/* Hero Illustration */}
             <div className="mt-8 sm:mt-12 flex justify-center mb-8 sm:mb-12">
               <img
-                src={darkMode ? "./tasklearnblack-removebg-preview.png" : "./tasklearnlight-removebg-preview.png"}
+                src={darkMode ? "/tasklearnblack-removebg-preview.png" : "/tasklearnlight-removebg-preview.png"}
                 alt="TaskLearn.ai illustration"
                 className="w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain transition-opacity duration-300"
                 aria-hidden="true"
@@ -288,7 +288,7 @@ function App() {
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-12 text-center text-gray-600 dark:text-gray-400 font-montserrat">
-        <p>© 2024 TaskLearn.ai - Building the future of skill acquisition</p>
+        <p>© 2025 TaskLearn.ai - Building the future of skill acquisition</p>
       </footer>
     </div>
   )
